@@ -153,9 +153,9 @@ export default class PathfindingVisualizer extends Component {
                     Clear Board
                 </button>
                 <div>
-                <p>Start Node is marked green.<br />End Node is marked red<br />
+                <p>Start Node is marked green.End Node is marked red
                     You can move around the start and end node by just dragging them.
-                    <br />Walls can be created by clicking on empty cells.
+                    Walls can be created by clicking on empty cells.
                 </p>
                 </div>
                 <div className="grid">
