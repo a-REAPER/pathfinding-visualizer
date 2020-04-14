@@ -152,6 +152,12 @@ export default class PathfindingVisualizer extends Component {
                 <button onClick={() => this.clearBoard()}>
                     Clear Board
                 </button>
+                <div>
+                <p><br />Start Node is marked green.<br />End Node is marked red<br />
+                    You can move around the start and end node by just dragging them.
+                    <br />Walls can be created by clicking on empty cells.
+                </p>
+                </div>
                 <div className="grid">
                     {grid.map((row, rowIdx) => {
                         return (
